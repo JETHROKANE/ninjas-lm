@@ -1,8 +1,5 @@
 #!/usr/bin/python
 
-value1=sys.argv[1]
-value2=sys.argv[2]
-
 from check import check
 from progress import progress
 
@@ -13,7 +10,7 @@ print """This are the options:
 3.exit
 """
 
-value3 = raw_input("What would you want to do" )
+value3 = raw_input("What would you want to do:  " )
 count = 1
 
 if value3 == "1":
