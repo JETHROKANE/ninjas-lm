@@ -1,4 +1,4 @@
-#!/usr/bin/python
+
 
 from check import check
 from progress import progress
@@ -55,10 +55,3 @@ Task""" + count + """ """ + key + """: """ + progress[key] + """
 else:
     print "Thank you, have a nice day"
     exit(0)
-
-
-
-
-
-
-
